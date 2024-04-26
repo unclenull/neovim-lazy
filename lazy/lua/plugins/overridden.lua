@@ -129,7 +129,7 @@ return {
         "c_sharp",
         "python",
         "java",
-        "ruby",
+        -- "ruby",
         "lua",
       },
     },
