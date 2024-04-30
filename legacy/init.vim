@@ -5,7 +5,7 @@ source ~/.vimrc
 set guifont=FiraCode\ Nerd\ Font\ Mono:h11
 
 command! -nargs=* Cc CopilotChat <args>
-nnoremap <Leader>cc :CopilotChat<CR>
+nnoremap <Leader>cc :CopilotChat<Space>
 
 call plug#begin()
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
